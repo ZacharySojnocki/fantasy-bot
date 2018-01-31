@@ -74,4 +74,4 @@ bot.on('message', (message) => {
     }
 });
 
-bot.login(require('./tokens.js').TestBotToken);
+bot.login(require('./tokens.js').BotToken);
