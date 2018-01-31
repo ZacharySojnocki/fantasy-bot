@@ -74,4 +74,4 @@ bot.on('message', (message) => {
     }
 });
 
-bot.login('NDA4MDAxODEzMTI4OTM3NDkz.DVJs1Q.r2QcPxVzT2eZ5zWkBj9ZPGM0s2Y');
+bot.login(require('./tokens.js').TestBotToken);
